@@ -2,9 +2,9 @@ var this_year = DateTime.now().year.toString();
 
 class AppConfig {
   //this shows in the splash screen
-  static String copyright_text = "@ ActiveItZone " + this_year;
+  static String copyright_text = "@ Innovexmall " + this_year;
   //this shows in the splash screen
-  static String app_name = "Active eCommerce seller app";
+  static String app_name = "Innovexmall seller app";
 
   //enter your purchase code for the app from codecanyon
   static String purchase_code = "";
@@ -23,7 +23,7 @@ class AppConfig {
   //configure this
   //localhost
   static const bool HTTPS = true;
-  static const DOMAIN_PATH = "domain.com";
+  static const DOMAIN_PATH = "innovexmall.com";
 
   //do not configure these below
   static const String API_ENDPATH = "api/v2";
